@@ -14,10 +14,10 @@ The most popular option for presenting detailed product information in a group.
 <Showcase showcase-name="ProductCard/ProductCardVertical" style="min-height: 600px">
 
 <!-- vue -->
-<<<../../preview/nuxt/pages/showcases/ProductCard/ProductCardVertical.vue
+<<<./node_modules/@storefront-ui/vue-blocks/components/ProductCard/ProductCardVertical.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/ProductCard/ProductCardVertical.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/ProductCard/ProductCardVertical.tsx#source
 <!-- end react -->
 
 </Showcase>
@@ -29,10 +29,10 @@ Present products in checkout summary in a way that customers can have an easy ac
 <Showcase showcase-name="ProductCard/ProductCardHorizontal" style="min-height: 300px">
 
 <!-- vue -->
-<<<../../preview/nuxt/pages/showcases/ProductCard/ProductCardHorizontal.vue
+<<<./node_modules/@storefront-ui/vue-blocks/components/ProductCard/ProductCardHorizontal.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/ProductCard/ProductCardHorizontal.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/ProductCard/ProductCardHorizontal.tsx#source
 <!-- end react -->
 
 </Showcase>
@@ -44,10 +44,10 @@ ProductCard details can be used in product details page or to build component us
 <Showcase showcase-name="ProductCard/Details" style="min-height:600px">
 
 <!-- vue -->
-<<<../../preview/nuxt/pages/showcases/ProductCard/Details.vue
+<<<./node_modules/@storefront-ui/vue-blocks/components/ProductCard/Details.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/ProductCard/Details.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/ProductCard/Details.tsx#source
 <!-- end react -->
 
 </Showcase>

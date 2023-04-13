@@ -84,11 +84,44 @@ export default {
         },
       });
 
+      config.module.rules.push({
+        test: /\/blocks\/react\/index\.ts/,
+        loader: 'string-replace-loader',
+        options: {
+          // only for dev purposes in monorepo:
+          // Search all imports and add typing files before them, webpack has problem with re-exporting from packages
+          // import { SfThumbnailSize } from '@storefront-ui/shared';
+          // import type { PropsWithStyle } from '@storefront-ui/react';
+
+          // export { SfThumbnailSize };
+          search: /^export \* from '\.\/components\/([^']+?)';/gm,
+          replace: (_match, componentName) => {
+            const path = join(
+              process.cwd(),
+              '..',
+              '..',
+              '..',
+              'packages',
+              'blocks',
+              'react',
+              'components',
+              componentName,
+              'types.ts',
+            );
+            if (!existsSync(path)) return _match;
+            return `export * from './components/${componentName}/types';\nexport * from './components/${componentName}';`;
+          },
+        },
+      });
+
       const reactPackage = resolve(process.cwd(), '..', '..', '..', 'packages', 'sfui', 'frameworks', 'react', 'index.ts');
+      const reactBlocksPackage = resolve(process.cwd(), '..', '..', '..', 'packages', 'blocks', 'react', 'index.ts');
+
       config.resolve.alias = {
         ...config.resolve.alias,
         '@storefront-ui/react': reactPackage,
         '@storefront-ui/vue': reactPackage,
+        '@storefront-ui/react-blocks': reactBlocksPackage,
       }
     }
 

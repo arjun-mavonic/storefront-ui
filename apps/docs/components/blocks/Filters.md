@@ -13,10 +13,10 @@ Color filters are a type of product filter that allow online shoppers to narrow 
 <Showcase showcase-name="Filters/Color">
 
 <!-- vue -->
-<<<../../preview/nuxt/pages/showcases/Filters/Color.vue
+<<<./node_modules/@storefront-ui/vue-blocks/components/Filters/Color.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Filters/Color.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Filters/Color.tsx#source
 <!-- end react -->
 </Showcase>
 
@@ -26,10 +26,10 @@ Sizes in category pages are a feature that allows online shoppers to filter thei
 <Showcase showcase-name="Filters/Sizes">
 
 <!-- vue -->
-<<<../../preview/nuxt/pages/showcases/Filters/Sizes.vue
+<<<./node_modules/@storefront-ui/vue-blocks/components/Filters/Sizes.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Filters/Sizes.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Filters/Sizes.tsx#source
 
 </Showcase>
 
@@ -41,10 +41,10 @@ Sorting in category pages is a feature that allows online shoppers to arrange an
 <Showcase showcase-name="Filters/SortBy">
 
 <!-- vue -->
-<<<../../preview/nuxt/pages/showcases/Filters/SortBy.vue
+<<<./node_modules/@storefront-ui/vue-blocks/components/Filters/SortBy.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Filters/SortBy.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Filters/SortBy.tsx#source
 <!-- end react -->
 
 </Showcase>
@@ -56,10 +56,10 @@ Filters panel can be customized to suit the specific needs of different applicat
 <Showcase showcase-name="Filters/FiltersPanel" style="min-height:1500px">
 
 <!-- vue -->
-<<<../../preview/nuxt/pages/showcases/Filters/FiltersPanel.vue
+<<<./node_modules/@storefront-ui/vue-blocks/components/Filters/FiltersPanel.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Filters/FiltersPanel.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Filters/FiltersPanel.tsx#source
 <!-- end react -->
 
 </Showcase>

@@ -11,12 +11,12 @@ description: QuantitySelector allows the selection of a numeric value and the di
 
 <Showcase showcase-name="QuantitySelector/QuantitySelector">
 
-<!-- react -->
-<<<../../preview/next/pages/showcases/QuantitySelector/QuantitySelector.tsx#source
-<!-- end react -->
 <!-- vue -->
-<<<../../preview/nuxt/pages/showcases/QuantitySelector/QuantitySelector.vue
+<<<./node_modules/@storefront-ui/vue-blocks/components/QuantitySelector/QuantitySelector.vue
 <!-- end vue -->
+<!-- react -->
+<<<./node_modules/@storefront-ui/react-blocks/components/QuantitySelector/QuantitySelector.tsx#source
+<!-- end react -->
 
 </Showcase>
 
@@ -25,10 +25,10 @@ description: QuantitySelector allows the selection of a numeric value and the di
 <Showcase showcase-name="QuantitySelector/Rounded">
 
 <!-- vue -->
-<<<../../preview/nuxt/pages/showcases/QuantitySelector/Rounded.vue
+<<<./node_modules/@storefront-ui/vue-blocks/components/QuantitySelector/Rounded.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/QuantitySelector/Rounded.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/QuantitySelector/Rounded.tsx#source
 <!-- end react -->
 
 </Showcase>
@@ -38,10 +38,10 @@ description: QuantitySelector allows the selection of a numeric value and the di
 <Showcase showcase-name="QuantitySelector/OutOfStock">
 
 <!-- vue -->
-<<<../../preview/nuxt/pages/showcases/QuantitySelector/OutOfStock.vue
+<<<./node_modules/@storefront-ui/vue-blocks/components/QuantitySelector/OutOfStock.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/QuantitySelector/OutOfStock.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/QuantitySelector/OutOfStock.tsx#source
 <!-- end react -->
 
 </Showcase>

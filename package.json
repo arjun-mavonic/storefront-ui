@@ -8,6 +8,7 @@
       "apps/docs/*",
       "apps/preview/*",
       "packages/*",
+      "packages/blocks/*",
       "packages/config/*",
       "packages/sfui/*",
       "packages/sfui/frameworks/*"
@@ -29,7 +30,9 @@
     "build:next": "turbo run build:next",
     "build:nuxt": "turbo run build:nuxt",
     "build:react": "turbo run build:react",
+    "build:react-blocks": "turbo run build:react-blocks",
     "build:vue": "turbo run build:vue",
+    "build:vue-blocks": "turbo run build:vue-blocks",
     "build:release": "turbo run build:release",
     "build:tailwind-config": "turbo run build:tailwind-config",
     "build:typography": "turbo run build:typography",

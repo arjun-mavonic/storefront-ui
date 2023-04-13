@@ -6,6 +6,8 @@ const generateComponentPath = (framework, componentName, type = 'components') =>
       return `/${framework}/hooks/${componentName}.html`;
     case 'blocks':
       return `/${framework}/blocks/${componentName}.html`;
+    case 'pages':
+      return `/${framework}/pages/${componentName}.html`;
   }
 };
 

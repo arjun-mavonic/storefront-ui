@@ -4,7 +4,7 @@ const { tailwindConfig } = require('@storefront-ui/tailwind-config');
 
 module.exports = {
   presets: [tailwindConfig],
-  content: ['./**/*.ts', './**/*.tsx', '../../../node_modules/@storefront-ui/react/**/*.tsx'],
+  content: ['./**/*.ts', './**/*.tsx', '../../../node_modules/@storefront-ui/react/**/*.tsx', '../../../node_modules/@storefront-ui/react-blocks/**/*.tsx'],
   theme: {
     extend: {
       fontFamily: {

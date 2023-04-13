@@ -43,6 +43,7 @@
     "hooks/**/*.tsx",
     "layouts/**/*.tsx",
     "node_modules/@storefont-ui/react",
+    "node_modules/@storefont-ui/react-blocks",
     "node_modules/@storefont-ui/shared"
   ],
   "exclude": [

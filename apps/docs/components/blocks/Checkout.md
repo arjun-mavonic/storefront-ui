@@ -14,10 +14,10 @@ Ease the checkout process for users by providing them with well-structured addre
 <Showcase showcase-name="Checkout/CheckoutAddressForm" style="min-height:600px">
 
 <!-- vue -->
-<<<../../preview/nuxt/pages/showcases/Checkout/CheckoutAddressForm.vue
+<<<./node_modules/@storefront-ui/vue-blocks/components/Checkout/CheckoutAddressForm.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Checkout/CheckoutAddressForm.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Checkout/CheckoutAddressForm.tsx#source
 <!-- end react -->
 
 </Showcase>
@@ -29,10 +29,10 @@ Present possible delivery options in a way where your customers can easily see d
 <Showcase showcase-name="Checkout/CheckoutDeliveryOptions" style="min-height: 300px;">
 
 <!-- vue -->
-<<<../../preview/nuxt/pages/showcases/Checkout/CheckoutDeliveryOptions.vue
+<<<./node_modules/@storefront-ui/vue-blocks/components/Checkout/CheckoutDeliveryOptions.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Checkout/CheckoutDeliveryOptions.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Checkout/CheckoutDeliveryOptions.tsx#source
 <!-- end react -->
 
 </Showcase>
@@ -44,10 +44,10 @@ Let your users pick a payment method of their choice in a nice and clear way.
 <Showcase showcase-name="Checkout/CheckoutPaymentMethod" style="min-height:320px" >
 
 <!-- vue -->
-<<<../../preview/nuxt/pages/showcases/Checkout/CheckoutPaymentMethod.vue
+<<<./node_modules/@storefront-ui/vue-blocks/components/Checkout/CheckoutPaymentMethod.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Checkout/CheckoutPaymentMethod.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Checkout/CheckoutPaymentMethod.tsx#source
 <!-- end react -->
 
 </Showcase>
@@ -59,10 +59,10 @@ The contact form for customers provides the way to send email (field with simple
 <Showcase showcase-name="Checkout/CheckoutContactForm" style="min-height: 400px;">
 
 <!-- vue -->
-<<<../../preview/nuxt/pages/showcases/Checkout/CheckoutContactForm.vue
+<<<./node_modules/@storefront-ui/vue-blocks/components/Checkout/CheckoutContactForm.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Checkout/CheckoutContactForm.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Checkout/CheckoutContactForm.tsx#source
 <!-- end react -->
 
 </Showcase>

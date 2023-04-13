@@ -57,6 +57,8 @@ apps/docs/components/react/showcases
 apps/docs/components/vue/showcases
 apps/docs/components/react/blocks
 apps/docs/components/vue/blocks
+apps/docs/components/react/pages
+apps/docs/components/vue/pages
 apps/docs/components/react/customization
 apps/docs/components/vue/customization
 apps/docs/components/react/hooks

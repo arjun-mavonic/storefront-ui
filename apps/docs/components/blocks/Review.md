@@ -14,10 +14,10 @@ Basic Review usage with avatar and [Rating](/vue/components/rating.html) base co
 <Showcase showcase-name="Review/WithAvatar" style="min-height:220px">
 
 <!-- vue -->
-<<<../../preview/nuxt/pages/showcases/Review/WithAvatar.vue
+<<<./node_modules/@storefront-ui/vue-blocks/components/Review/WithAvatar.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Review/WithAvatar.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Review/WithAvatar.tsx#source
 <!-- end react -->
 
 </Showcase>
@@ -29,10 +29,10 @@ When description is too long we can truncate it for certain count characters.
 <Showcase showcase-name="Review/ShowMore" style="min-height:360px">
 
 <!-- vue -->
-<<<../../preview/nuxt/pages/showcases/Review/ShowMore.vue
+<<<./node_modules/@storefront-ui/vue-blocks/components/Review/ShowMore.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Review/ShowMore.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Review/ShowMore.tsx#source
 <!-- end react -->
 
 </Showcase>

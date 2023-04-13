@@ -1,18 +1,21 @@
+const sfTypography = require('@storefront-ui/typography');
 /** @type {import('tailwindcss').Config} */
+const { tailwindConfig } = require('@storefront-ui/tailwind-config');
+
 module.exports = {
+  presets: [tailwindConfig],
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx}',
-    './src/components/**/*.{js,ts,jsx,tsx}',
-    './src/app/**/*.{js,ts,jsx,tsx}',
+    './**/*.ts',
+    './**/*.tsx',
+    '../../../node_modules/@storefront-ui/react/**/*.tsx',
+    '../../../node_modules/@storefront-ui/react-blocks/**/*.tsx',
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        sans: 'Red Hat Text, sans-serif',
       },
     },
   },
-  plugins: [],
-}
+  plugins: [sfTypography],
+};

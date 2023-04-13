@@ -7,5 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "dependencies": {
+    "@storefront-ui/tailwind-config": "workspace:*",
+    "@storefront-ui/typography": "workspace:*"
   }
 }

@@ -7,6 +7,7 @@
       "apps/*",
       "apps/docs/*",
       "apps/preview/*",
+      "apps/templates/*",
       "packages/*",
       "packages/blocks/*",
       "packages/config/*",

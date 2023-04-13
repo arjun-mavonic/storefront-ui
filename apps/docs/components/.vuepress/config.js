@@ -1,3 +1,4 @@
+require('dotenv').config()
 const components = require('../utils/components.json');
 const showcases = require('../utils/blocks.json');
 const pages = require('../utils/pages.json');
@@ -140,6 +141,7 @@ module.exports = {
     DOCS_EXAMPLES_REACT_PATH,
     DOCS_EXAMPLES_VUE_PATH,
     FIGMA_URL,
+    coreDocs: false,
     title: 'Storefront UI',
     repo: 'https://github.com/vuestorefront/storefront-ui',
     docsRepoPath: 'https://github.com/vuestorefront/storefront-ui/tree/v2/apps/docs/components/', // used to generate direct edit links on docs pages.

@@ -31,7 +31,6 @@
     "build:next": "turbo run build:next",
     "build:nuxt": "turbo run build:nuxt",
     "build:react": "turbo run build:react",
-    "build:react-blocks": "turbo run build:react-blocks",
     "build:vue": "turbo run build:vue",
     "build:release": "turbo run build:release",
     "build:tailwind-config": "turbo run build:tailwind-config",

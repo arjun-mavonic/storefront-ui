@@ -13,7 +13,7 @@ description: An order summary shows all order details into a consolidated view. 
 <<<../../preview/nuxt/pages/showcases/OrderSummary/OrderSummary.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/OrderSummary/OrderSummary.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/OrderSummary/OrderSummary.tsx#source
 <!-- end react -->
 
 </Showcase>

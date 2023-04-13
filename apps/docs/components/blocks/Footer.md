@@ -15,7 +15,7 @@ description: The Footer block is used as navigation. Usually it's at the bottom 
 <<<../../preview/nuxt/pages/showcases/Footer/FooterBasic.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Footer/FooterBasic.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Footer/FooterBasic.tsx#source
 <!-- end react -->
 </Showcase>
 

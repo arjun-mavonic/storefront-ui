@@ -14,7 +14,7 @@ Ease the checkout process for users by providing them with well-structured addre
 <Showcase showcase-name="Checkout/CheckoutAddressForm" style="min-height:600px">
 
 <!-- vue -->
-<<<./node_modules/@storefront-ui/vue-blocks/components/Checkout/CheckoutAddressForm.vue
+<<<../../preview/nuxt/pages/showcases/Checkout/CheckoutAddressForm.vue
 <!-- end vue -->
 <!-- react -->
 <<<./node_modules/@storefront-ui/react-blocks/components/Checkout/CheckoutAddressForm.tsx#source
@@ -29,7 +29,7 @@ Present possible delivery options in a way where your customers can easily see d
 <Showcase showcase-name="Checkout/CheckoutDeliveryOptions" style="min-height: 300px;">
 
 <!-- vue -->
-<<<./node_modules/@storefront-ui/vue-blocks/components/Checkout/CheckoutDeliveryOptions.vue
+<<<../../preview/nuxt/pages/showcases/Checkout/CheckoutDeliveryOptions.vue
 <!-- end vue -->
 <!-- react -->
 <<<./node_modules/@storefront-ui/react-blocks/components/Checkout/CheckoutDeliveryOptions.tsx#source
@@ -44,7 +44,7 @@ Let your users pick a payment method of their choice in a nice and clear way.
 <Showcase showcase-name="Checkout/CheckoutPaymentMethod" style="min-height:320px" >
 
 <!-- vue -->
-<<<./node_modules/@storefront-ui/vue-blocks/components/Checkout/CheckoutPaymentMethod.vue
+<<<../../preview/nuxt/pages/showcases/Checkout/CheckoutPaymentMethod.vue
 <!-- end vue -->
 <!-- react -->
 <<<./node_modules/@storefront-ui/react-blocks/components/Checkout/CheckoutPaymentMethod.tsx#source
@@ -59,7 +59,7 @@ The contact form for customers provides the way to send email (field with simple
 <Showcase showcase-name="Checkout/CheckoutContactForm" style="min-height: 400px;">
 
 <!-- vue -->
-<<<./node_modules/@storefront-ui/vue-blocks/components/Checkout/CheckoutContactForm.vue
+<<<../../preview/nuxt/pages/showcases/Checkout/CheckoutContactForm.vue
 <!-- end vue -->
 <!-- react -->
 <<<./node_modules/@storefront-ui/react-blocks/components/Checkout/CheckoutContactForm.tsx#source

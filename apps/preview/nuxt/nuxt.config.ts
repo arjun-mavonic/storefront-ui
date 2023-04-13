@@ -29,16 +29,6 @@ export default defineNuxtConfig({
             'vue',
             'index.ts',
           ),
-          '@storefront-ui/vue-blocks': resolve(
-            __dirname,
-            '..',
-            '..',
-            '..',
-            'packages',
-            'blocks',
-            'vue',
-            'index.ts',
-          ),
           '@storefront-ui/react': resolve(
             __dirname,
             '..',
@@ -74,27 +64,6 @@ export default defineNuxtConfig({
                 'packages',
                 'sfui',
                 'frameworks',
-                'vue',
-                'components',
-                componentName,
-                'types.ts',
-              );
-              if (!existsSync(path)) return _match;
-              return `export * from './components/${componentName}/types';\nexport * from './components/${componentName}';`;
-            });
-
-            return { code };
-          }
-
-          if (/\/blocks\/vue\/index\.ts/.test(id)) {
-            code = code.replace(/^export \* from '\.\/components\/([^']+?)';/gm, (_match, componentName) => {
-              const path = join(
-                __dirname,
-                '..',
-                '..',
-                '..',
-                'packages',
-                'blocks',
                 'vue',
                 'components',
                 componentName,

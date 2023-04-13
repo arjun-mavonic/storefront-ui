@@ -17,7 +17,7 @@ description: Banners are components that deliver main image and content in vario
 <<<../../preview/nuxt/pages/showcases/Banners/DisplayHorizontal.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Banners/DisplayHorizontal.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Banners/DisplayHorizontal.tsx#source
 <!-- end react -->
 
 </Showcase>
@@ -31,7 +31,7 @@ Vertical display block with image and content below or above it.
 <<<../../preview/nuxt/pages/showcases/Banners/DisplayVertical.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Banners/DisplayVertical.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Banners/DisplayVertical.tsx#source
 <!-- end react -->
 </Showcase>
 
@@ -44,7 +44,7 @@ Four vertical displays in row on desktop.
 <<<../../preview/nuxt/pages/showcases/Banners/DisplayVerticalMultiple.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Banners/DisplayVerticalMultiple.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Banners/DisplayVerticalMultiple.tsx#source
 <!-- end react -->
 </Showcase>
 
@@ -58,7 +58,7 @@ Hero acts like a layout for your hero section. You can provide main image and an
 <<<../../preview/nuxt/pages/showcases/Banners/Hero.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Banners/Hero.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Banners/Hero.tsx#source
 <!-- end react -->
 
 </Showcase>

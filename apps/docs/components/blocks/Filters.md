@@ -13,7 +13,7 @@ Color filters are a type of product filter that allow online shoppers to narrow 
 <Showcase showcase-name="Filters/Color">
 
 <!-- vue -->
-<<<./node_modules/@storefront-ui/vue-blocks/components/Filters/Color.vue
+<<<../../preview/nuxt/pages/showcases/Filters/Color.vue
 <!-- end vue -->
 <!-- react -->
 <<<./node_modules/@storefront-ui/react-blocks/components/Filters/Color.tsx#source
@@ -26,7 +26,7 @@ Sizes in category pages are a feature that allows online shoppers to filter thei
 <Showcase showcase-name="Filters/Sizes">
 
 <!-- vue -->
-<<<./node_modules/@storefront-ui/vue-blocks/components/Filters/Sizes.vue
+<<<../../preview/nuxt/pages/showcases/Filters/Sizes.vue
 <!-- end vue -->
 <!-- react -->
 <<<./node_modules/@storefront-ui/react-blocks/components/Filters/Sizes.tsx#source
@@ -41,7 +41,7 @@ Sorting in category pages is a feature that allows online shoppers to arrange an
 <Showcase showcase-name="Filters/SortBy">
 
 <!-- vue -->
-<<<./node_modules/@storefront-ui/vue-blocks/components/Filters/SortBy.vue
+<<<../../preview/nuxt/pages/showcases/Filters/SortBy.vue
 <!-- end vue -->
 <!-- react -->
 <<<./node_modules/@storefront-ui/react-blocks/components/Filters/SortBy.tsx#source
@@ -56,7 +56,7 @@ Filters panel can be customized to suit the specific needs of different applicat
 <Showcase showcase-name="Filters/FiltersPanel" style="min-height:1500px">
 
 <!-- vue -->
-<<<./node_modules/@storefront-ui/vue-blocks/components/Filters/FiltersPanel.vue
+<<<../../preview/nuxt/pages/showcases/Filters/FiltersPanel.vue
 <!-- end vue -->
 <!-- react -->
 <<<./node_modules/@storefront-ui/react-blocks/components/Filters/FiltersPanel.tsx#source

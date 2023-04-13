@@ -24,7 +24,7 @@
     },
     "build:nuxt": {
       "cache": false,
-      "dependsOn": ["^build:vue", "^build:vue-blocks", "^build:typography", "build:tailwind-config"]
+      "dependsOn": ["^build:vue", "^build:typography", "build:tailwind-config"]
     },
     "build:docs": {
       "dependsOn": ["^build:tailwind-config"],
@@ -39,10 +39,6 @@
       "cache": false
     },
     "build:vue": {
-      "dependsOn": ["^build:shared"],
-      "cache": false
-    },
-    "build:vue-blocks": {
       "dependsOn": ["^build:shared"],
       "cache": false
     },

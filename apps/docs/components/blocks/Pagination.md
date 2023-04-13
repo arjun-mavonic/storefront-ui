@@ -18,7 +18,7 @@ It is a good idea to use pagination when there are lots of elements to show on t
 <<<../../preview/nuxt/pages/showcases/Pagination/Pagination.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Pagination/Pagination.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Pagination/Pagination.tsx#source
 <!-- end react -->
 
 </Showcase>

@@ -11,26 +11,22 @@ description: The NavbarTop block is used as navigation. Usually it's at the top 
 ## NavbarTop with white background
 
 <Showcase showcase-name="NavbarTop/NavbarTop" style="min-height: 500px;">
-
 <!-- vue -->
-<<<./node_modules/@storefront-ui/vue-blocks/components/NavbarTop/NavbarTop.vue
+<<<../../preview/nuxt/pages/showcases/NavbarTop/NavbarTop.vue
 <!-- end vue -->
 <!-- react -->
 <<<./node_modules/@storefront-ui/react-blocks/components/NavbarTop/NavbarTop.tsx#source
 <!-- end react -->
-
 </Showcase>
 
 ## NavbarTop with filled background
 
 
 <Showcase showcase-name="NavbarTop/NavbarTopFilled" style="min-height: 500px;">
-
 <!-- vue -->
-<<<./node_modules/@storefront-ui/vue-blocks/components/NavbarTop/NavbarTopFilled.vue
+<<<../../preview/nuxt/pages/showcases/NavbarTop/NavbarTopFilled.vue
 <!-- end vue -->
 <!-- react -->
 <<<./node_modules/@storefront-ui/react-blocks/components/NavbarTop/NavbarTopFilled.tsx#source
 <!-- end react -->
-
 </Showcase>

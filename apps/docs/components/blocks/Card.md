@@ -17,7 +17,7 @@ The default card view with a rectangle shaped image, a title, a description and 
 <<<../../preview/nuxt/pages/showcases/Card/CardDefault.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Card/CardDefault.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Card/CardDefault.tsx#source
 <!-- end react -->
 
 </Showcase>
@@ -32,7 +32,7 @@ The category card view with a circle shaped image, and category title, clickable
 <<<../../preview/nuxt/pages/showcases/Card/CategoryCard.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Card/CategoryCard.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Card/CategoryCard.tsx#source
 <!-- end react -->
 
 </Showcase>
@@ -47,7 +47,7 @@ This type of card has only button to interact.
 <<<../../preview/nuxt/pages/showcases/Card/CardFeature.vue
 <!-- end vue -->
 <!-- react -->
-<<<../../preview/next/pages/showcases/Card/CardFeature.tsx#source
+<<<./node_modules/@storefront-ui/react-blocks/components/Card/CardFeature.tsx#source
 <!-- end react -->
 
 </Showcase>

@@ -17,6 +17,14 @@ export default {
       type: String,
       default: undefined,
     },
+    reactBasePath: {
+      type: String,
+      default: undefined,
+    },
+    vueBasePath: {
+      type: String,
+      default: undefined,
+    },
   },
   computed: {
     frameworkName() {
@@ -25,16 +33,25 @@ export default {
     componentName() {
       return this.$route.path.split('/').pop()?.split('.')[0];
     },
+    basePath() {
+      console.log(this.reactBasePath);
+      const reactPath = this.reactBasePath || this.$themeConfig.DOCS_EXAMPLES_REACT_PATH;
+      const vuePath = this.vueBasePath || this.$themeConfig.DOCS_EXAMPLES_VUE_PATH;
+
+      return this.frameworkName === 'react' ? reactPath : vuePath;
+    },
     exampleUrl() {
       const componentNameFull = components[this.frameworkName].find((component) =>
         component.toLowerCase().includes('sf' + this.componentName),
       );
 
-      return `${
-        this.frameworkName === 'react'
-          ? this.$themeConfig.DOCS_EXAMPLES_REACT_PATH
-          : this.$themeConfig.DOCS_EXAMPLES_VUE_PATH
-      }/${this.showcasePath ? `showcases/${this.showcasePath}` : `examples/${componentNameFull}`}?docs=true`;
+      const x = `${this.basePath}/${
+        this.showcasePath ? `showcases/${this.showcasePath}` : `examples/${componentNameFull}`
+      }?docs=true`;
+
+      console.log(x);
+
+      return x;
     },
   },
 };

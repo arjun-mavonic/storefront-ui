@@ -24,7 +24,13 @@
         @mousedown="mouseDownListener"
       >
         <div class="absolute inset-0" v-show="isHandlerDragging"></div>
-        <Generate :showcase-path="showcaseName" :allow="allow" class="flex-grow rounded" style="margin-top: 0" />
+        <Generate
+          :react-base-path="reactBasePath"
+          :showcase-path="showcaseName"
+          :allow="allow"
+          class="flex-grow rounded"
+          style="margin-top: 0"
+        />
         <div ref="handlerRef" class="select-none rounded-tr flex items-center" style="cursor: ew-resize">
           <iconify-icon icon="akar-icons:drag-vertical" class="pointer-events-none" />
         </div>
@@ -54,6 +60,10 @@ export default {
       type: Boolean,
       default: true,
     },
+    reactBasePath: {
+      type: String,
+      default: undefined,
+    },
   },
   data: () => ({
     tab: 1,
@@ -63,6 +73,7 @@ export default {
     isHandlerDragging: false,
   }),
   mounted() {
+    console.log('showcase mounted');
     document.addEventListener('mousemove', this.mouseMoveListener);
     document.addEventListener('mouseup', this.mouseUpListener);
   },

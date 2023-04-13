@@ -8,19 +8,21 @@ description: Cart page.
 # Cart page
 
 <!-- vue -->
+
 todo
+
 <!-- end vue -->
 <!-- react -->
+
 | [CartPage.tsx](#cartpage-tsx)                 |
-|:----------------------------------------------|
+| :-------------------------------------------- |
 | [NavbarTop.tsx](#navbartop-tsx)               |
 | [NavbarBottom.tsx](#navbarbottom-tsx)         |
 | [ReviewWithAvatar.tsx](#reviewwithavatar-tsx) |
 
-
 ## CartPage.tsx
 
-<Showcase showcase-name="../pages/Cart/CartPage" style="min-height:600px">
+<Showcase react-base-path="http://localhost:3003" showcase-name="Cart/CartPage" style="min-height:600px">
 
 <<<../../preview/next/pages/pages/Cart/CartPage.tsx#source
 

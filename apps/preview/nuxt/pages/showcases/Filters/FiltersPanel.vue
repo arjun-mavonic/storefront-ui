@@ -22,8 +22,10 @@
       Filters
     </h5>
     <ul>
-      <!-- eslint-disable-next-line prettier/prettier -->
+      <!-- eslint-disable prettier/prettier -->
+      <!-- prettier-ignore -->
       <li v-for="{ id: filterDataId, type, summary, details }, index in filtersData" :key="filterDataId">
+        <!--eslint-enable-->
         <SfAccordionItem v-model="opened[index]">
           <template #summary>
             <div class="flex justify-between p-2 mb-2">

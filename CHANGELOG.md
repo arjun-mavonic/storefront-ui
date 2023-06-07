@@ -1,3 +1,31 @@
+# 2.3.0 (2023-06-07)
+
+## Overview
+
+This release introduces SfBadge alongside new blocks and improvements.
+
+## UI Elements
+
+- SfBadge
+
+### Blocks
+
+- Combobox
+- Search with custom icon or button
+- Filters - Category Tree
+
+## Improvements
+
+- Introduced changesets and continous development pipeline
+- Automatic upload of assets to GCP storage
+
+## Bug fixes
+
+- Pagination - gap improvement
+- Docs - React list of icons restored
+- Search - improved size of icon
+- Filters - improved styling of ratings list
+
 # 2.2.1 (2023-05-24)
 
 ## Overview

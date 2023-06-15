@@ -25,7 +25,7 @@ const SfModal = polymorphicForwardRef<typeof defaultModalTag, SfModalProps>(
     useTrapFocus(modalRef, {
       trapTabs: true,
       activeState: open,
-      initialFocus: false,
+      initialFocus: 0,
       initialFocusContainerFallback: true,
     });
 
